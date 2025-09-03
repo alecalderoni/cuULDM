@@ -11,16 +11,15 @@ Implements a 3D pseudo-spectral solver with split-step (Strang splitting) integr
   \]
 - **Pseudo-spectral method** using 3D FFTs (cuFFT).  
 - **Split-step scheme** (half-step potential + full-step kinetic).  
-- Poisson solver in Fourier space with \(k=0\) correction.  
+- Poisson solver in Fourier space.  
 - Initialization with **tabulated soliton profile** or optional point-mass contribution.  
-- Direct visualization: central density slice output as BMP images.  
-- Supports grids up to **N = 256³** (~1 GB GPU memory).  
+- Direct visualization. 
 
 ## 🚀 Requirements
 
+- NVIDIA GPU 
 - **CUDA Toolkit** (>= 11.x recommended)  
 - **cuFFT** (bundled with CUDA Toolkit)  
-- NVIDIA GPU with ≥ 2 GB memory  
 - `nvcc` compiler  
 
 ## ⚙️ Build
