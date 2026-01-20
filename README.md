@@ -12,9 +12,8 @@ Implements a 3D pseudo-spectral solver with split-step (Strang splitting) integr
 ## ✨ Features
 
 - Numerical evolution of the Schrödinger–Poisson equations:
-  \[
-    i \partial_t \psi = -\frac{1}{2}\nabla^2 \psi + \phi \psi, \quad \nabla^2 \phi = 4 \pi |\psi|^2
-  \]
+  i ∂ψ/∂t = -(1/2) ∇²ψ + φ ψ
+  ∇²φ   = 4 π |ψ|²
 - **Pseudo-spectral method** using 3D FFTs (cuFFT).  
 - **Split-step scheme** (half-step potential + full-step kinetic).  
 - Poisson solver in Fourier space.  
