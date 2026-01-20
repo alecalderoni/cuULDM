@@ -8,7 +8,7 @@ Implements a 3D pseudo-spectral solver with split-step (Strang splitting) integr
 ## Demo della simulazione
 
 <video width="600" controls>
-  <source src="videos/phπ.mov" type="video/mov">
+  <source src="videos/phπ.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
