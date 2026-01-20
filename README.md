@@ -29,4 +29,4 @@ Implements a 3D pseudo-spectral solver with split-step (Strang splitting) integr
 Clone the repository and compile with:
 
 ```bash
-nvcc -O3 -arch=sm_75 cuULDM.cu -lcufft -o cuULDM
+nvcc -O3 -arch=sm_XX cuULDM.cu -lcufft -o cuULDM
