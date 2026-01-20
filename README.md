@@ -5,6 +5,13 @@ NOT UPTATED...CONTACT ME FOR THE MOST RECENT VERSION
 GPU (CUDA) simulator for ultralight dark matter (ULDM) dynamics based on the Schrödinger–Poisson system.  
 Implements a 3D pseudo-spectral solver with split-step (Strang splitting) integration and Poisson equation solved in Fourier space.
 
+## Demo della simulazione
+
+<video width="600" controls>
+  <source src="videos/phπ.mov" type="video/mov">
+  Your browser does not support the video tag.
+</video>
+
 ## ✨ Features
 
 - Numerical evolution of the Schrödinger–Poisson equations:
@@ -30,3 +37,6 @@ Clone the repository and compile with:
 
 ```bash
 nvcc -O3 -arch=sm_XX cuULDM.cu -lcufft -o cuULDM
+
+
+
